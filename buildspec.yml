@@ -1,0 +1,10 @@
+version: 0.2
+batch:
+  fast-fail: false
+  build-list:
+    - identifier: suite_1
+      buildspec: buildspec_suite1.yml
+    - identifier: suite_2
+      buildspec: buildspec_suite2.yml
+    - identifier: suite_3
+      buildspec: buildspec_suite3.yml
